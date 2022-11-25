@@ -1,0 +1,22 @@
+.CorosalBlock{
+    display: flex;
+    height: 100vh;
+    width:100%;
+    background-color: cornflowerblue;
+}
+#CorosalBlockleft{
+    position: relative;
+    height: inherit;
+    flex-basis: 75%;
+ background-image: linear-gradient(to right bottom, #fcb55a, #fdbc5d, #fdc261, #fec965, #fecf6a, #fed26c, #fed46e, #fed770, #fed770, #fed770, #fed770, #fed770);
+}
+#CorosalBlockRight{
+    flex-basis: 25%;
+    background-color:#3c347c;
+}
+ #CorosalBlockleft >img[alt="carosalImage" ]{
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+}

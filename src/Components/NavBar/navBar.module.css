@@ -1,0 +1,109 @@
+/* FONTS */
+/* NAVBAR-FONT */
+@import url("https://fonts.googleapis.com/css2?family=Alexandria&display=swap");
+
+.NavBar {
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  width: 100%;
+  /* background-color: #f3ae4b; */
+  z-index: 1;
+}
+#logo {
+  height: inherit;
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo img {
+  height: 70px;
+  width: auto;
+}
+#navBarContainer {
+  margin: 0 auto;
+  height: inherit;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  height: inherit;
+  flex-basis: 45%;
+}
+.menu ul {
+  list-style: none;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu ul li a {
+  display: inline-block;
+  height: inherit;
+  text-decoration: none;
+  padding: 25px 20px;
+  border-bottom: 4px solid transparent;
+  color: black;
+  font-family: "Alexandria", sans-serif;
+  font-size: 1em;
+  transition: all ease-in-out 0.2s;
+}
+.menu ul li a:hover {
+  /* color: #efefef; */
+  border-bottom: 4px solid black;
+  transition: all ease-in-out 0.2s;
+}
+.otherItems {
+  flex-basis: 50%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.otherItems #searchIcon input[type="search"] {
+  border-radius: 10px;
+  padding-left: 32px;
+  outline: none;
+  border: 1px solid #f3ae4b;
+  height: 5vh;
+  width: 22.9vw;
+  background-color: #efefef;
+}
+.otherItems #searchIcon input[type="search"]:focus {
+  border: 1px solid black;
+  outline: none;
+}
+.otherItems > #searchIcon > span {
+  font-size: 1.5em;
+  position: absolute;
+  left: 6px;
+}
+#CratList {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+#CratList a {
+  border-bottom: 4px solid transparent;
+  padding: 19px 20px;
+  transition: all ease-in-out 0.2s;
+  color: white;
+}
+#CratList a:hover {
+  color: #efefef;
+  border-bottom: 4px solid black;
+  transition: all ease-in-out 0.2s;
+}
+
+#account button {
+  height: 5vh;
+  width: 7vw;
+  border: 1px solid black;
+  border-radius: 23px;
+}
